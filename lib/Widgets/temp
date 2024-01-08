@@ -1,0 +1,47 @@
+// Row(
+//                       // mainAxisAlignment: MainAxisAlignment.start,
+//                       children: [
+//                         Padding(
+//                           padding: const EdgeInsets.all(10),
+//                           child: CircleAvatar(
+//                             radius: 30,
+//                             backgroundColor: Theme.of(context).primaryColor,
+//                             // padding: EdgeInsets.all(10),
+//                             // decoration: BoxDecoration(
+//                             //     //  color: Colors.purple,
+//                             //     // shape: BoxShape.circle,
+//                             //     border: Border.all(
+//                             //   color: Theme.of(context).primaryColor,
+//                             //   width: 2,
+//                             // )),
+//                             // margin: EdgeInsets.symmetric(
+//                             //     vertical: 10, horizontal: 15),
+//                             child: Text(
+//                               '₹${transactions[index].amount.toStringAsFixed(2)}',
+//                               style: TextStyle(
+//                                 color: Theme.of(context).primaryColor,
+//                                 fontWeight: FontWeight.bold,
+//                               ),
+//                             ),
+//                           ),
+//                         ),
+//                         Column(
+//                           crossAxisAlignment: CrossAxisAlignment.start,
+//                           children: [
+//                             Text(
+//                               transactions[index].title,
+//                               style: TextStyle(
+//                                 fontWeight: FontWeight.bold,
+//                                 fontFamily: 'Quicksand',
+//                                 fontSize: 17,
+//                               ),
+//                             ),
+//                             Text(
+//                               DateFormat('yMMMd')
+//                                   .format(transactions[index].date),
+//                               style: TextStyle(color: Colors.grey),
+//                             )
+//                           ],
+//                         )
+//                       ],
+//                  // ),
